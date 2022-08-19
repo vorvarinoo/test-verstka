@@ -303,6 +303,15 @@ p {
 	}
 }
 
+@media (max-width:475px) {
+	.footer {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column
+	}
+}
+
 @media (max-width:400px) {
 	.header {
 		-ms-flex-wrap: wrap;
