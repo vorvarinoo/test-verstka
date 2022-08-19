@@ -310,6 +310,10 @@ p {
 		-ms-flex-direction: column;
 		flex-direction: column
 	}
+
+	.border:after {
+		width: 145px
+	}
 }
 
 @media (max-width:400px) {
@@ -356,18 +360,11 @@ p {
 		max-width: 240px
 	}
 
-	.footer {
-		-webkit-box-orient: vertical;
-		-webkit-box-direction: normal;
-		-ms-flex-direction: column;
-		flex-direction: column
-	}
+
 
 	.footer>span {
 		margin-bottom: 6px
 	}
 
-	.border:after {
-		width: 63%
-	}
+
 }
