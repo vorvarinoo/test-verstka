@@ -287,15 +287,11 @@ p {
 }
 
 @media (max-width:768px) {
-	.header {
-		-ms-flex-wrap: wrap;
-		flex-wrap: wrap
-	}
+
 
 	.header__title {
 		font-size: 24px;
 		line-height: 28px;
-		margin-bottom: 12px;
 	}
 
 	.hashtag__title {
@@ -304,6 +300,17 @@ p {
 
 	.decision__title {
 		margin-top: 48px
+	}
+}
+
+@media (max-width:400px) {
+	.header {
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap
+	}
+
+	.header__title {
+		margin-bottom: 12px;
 	}
 }
 
